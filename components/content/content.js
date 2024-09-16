@@ -2,7 +2,7 @@
  * Funtion to fetch project data using fetch()
  */
 function fetchprojectData() {
-  fetch('./../../data/projectData.json')
+  fetch('/data/projectData.json')
   .then(response => {
     if(!response.ok){
       throw new Error('Network response was not ok');
