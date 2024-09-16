@@ -1,0 +1,11 @@
+.content{
+  color: blue;
+  border: 1px solid black;
+  padding: 50px 0;
+}
+
+.content-row{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
